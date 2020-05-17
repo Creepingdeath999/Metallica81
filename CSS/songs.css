@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body{
+  background-color: black;
+}
+.headerimg
+{
+    margin-top: 20px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.par 
+ { 
+ 	margin-left:250px;
+ 	padding-top: 50px;
+	color: white; 
+  font-size: 16px;
+  line-height: 24px; 
+  max-width: 900px;
+  text-align: justify; 
+  text-justify: inter-word;
+  white-space: pre-wrap;
+  font-family: 'ghalo';
+    }
+  .par2
+  { 
+  margin-left:250px;
+  margin-top: -15px;
+  color: white; 
+  font-size: 16px;
+  line-height: 24px; 
+  max-width: 900px;
+  text-align: justify; 
+  text-justify: inter-word;
+  white-space: pre-wrap;
+  font-family: 'ghalo';
+    }
+  .par3
+  { 
+  margin-left:250px;
+  color: white; 
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px; 
+  max-width: 900px;
+  text-align: justify; 
+  text-justify: inter-word;
+  white-space: pre-wrap;
+  font-family: 'ghalo';
+    }
+     .par4
+  { 
+  margin-left:250px;
+  color: white; 
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px; 
+  max-width: 900px;
+  text-align: justify; 
+  text-justify: inter-word;
+  white-space: pre-wrap;
+  font-family: 'ghalo';
+    }
+ .song img
+ { 
+ 	margin-left:50px;
+ 	max-width: 300px;
+ 	display: inline-block;
+ 	padding-top: 5px;
+ 	border-radius: 10px;
+ 	float: left;
+ }
+ .kill-a
+ {
+    color:#ee1b22;
+ }
+h1
+{ margin-left:auto;
+  margin-right: auto;
+  color: white; 
+  margin-top: 105px;
+  font-size: 25px; 
+  text-align: center; 
+  font-family: 'arial';
+ }
+ 
+ .lyric
+ {
+  margin-left: auto;
+  margin-right: auto;
+  color: white; 
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px; 
+  text-align: center; 
+  white-space: pre-wrap;
+  font-family: 'Montserrat', sans-serif;
+  
+ }
+
+
+ 
+ .kill-span
+ {
+  color:#ee1b22;
+ }
+
+hr
+{
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.cliff
+{
+  max-width: 500px;
+  border-radius:10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}

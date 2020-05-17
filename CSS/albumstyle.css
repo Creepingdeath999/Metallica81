@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  background-color: black;
+}
+.headerimg
+{
+    margin-top: 20px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.titleh1
+{ 
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  color:#a31811;
+}
+.par
+ { 
+  	margin-left:250px;
+ 	  padding-top: 5px;
+	  color: white; 
+    font-size: 16px;
+    line-height: 24px; 
+    max-width: 900px;
+    text-align: justify; 
+    text-justify: inter-word;
+    white-space: pre-wrap;
+     }
+ .songlist img
+ { 
+ 	margin-left:250px;
+ 	max-width: 300px;
+ 	display: inline-block;
+ 	padding-top: 5px;
+ 	border-radius: 10px;
+ 	float: left;
+ }
+ .songlist h1
+ {
+  	position: relative;
+    top: 18px;
+    left: 100px;
+ 	  color: white;
+ 	  font-size: 22px;
+ 	  font-family: 'Teko', sans-serif;
+ }
+ .songlist ul
+ {  
+    position: relative;
+    margin:25px;
+    left: 100px;
+ 	  color: white;
+ 	  font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+ a
+ {
+  color: white;
+ }

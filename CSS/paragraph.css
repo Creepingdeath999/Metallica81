@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{background-color:black;
+}
+           
+
+.headerimg
+{
+    margin-top: 20px;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.pmetal{
+  	color:#e0db70;
+
+  }
+.albums-a
+{
+    color:#80181d;
+}
+   .par
+ { 
+ 	margin-left:250px;
+ 	padding-top: 5px;
+	color: white; 
+    font-size: 16px;
+    line-height: 24px; 
+    max-width: 900px;
+    text-align: justify; 
+    text-justify: inter-word;
+    white-space: pre-wrap;
+    font-family: 'ghalo',sans-serif;
+     }
+.parmetal
+ { 
+ 	margin-left:250px;
+ 	padding-top: 5px;
+	color: white; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 16px;
+    line-height: 24px; 
+    max-width: 900px;
+    text-align: justify; 
+    text-justify: inter-word;
+     }
+
+    .hr1
+    {
+    	max-width: 900px;
+    	margin-left: 250px;
+    }
+    .h1p
+    {
+    	color:white;
+    	text-align: center;
+    	font-size: 26px;
+    	font-family: 
+    }
+    h1{
+    	color:white;
+    	margin: 5px;
+    	text-align: center;
+    }
+    li
+    {
+    	color: white;
+    }
+    .influence
+    {   
+    	color:#ecf0f1;
+    	text-align: center;
+    	margin:5px;
+    	font-size: 25px;
+        font-family: 'ghalo',sans-serif;
+    }
+  
