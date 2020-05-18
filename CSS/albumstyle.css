@@ -23,9 +23,9 @@ body{
 }
 .par
  { 
-  	margin-left:250px;
- 	  padding-top: 5px;
-	  color: white; 
+    margin-left:250px;
+    padding-top: 5px;
+    color: white; 
     font-size: 16px;
     line-height: 24px; 
     max-width: 900px;
@@ -35,29 +35,28 @@ body{
      }
  .songlist img
  { 
- 	margin-left:250px;
- 	max-width: 300px;
- 	display: inline-block;
- 	padding-top: 5px;
- 	border-radius: 10px;
- 	float: left;
+  margin-left:250px;
+  max-width: 300px;
+  display: inline-block;
+  padding-top: 5px;
+  border-radius: 10px;
+  float: left;
  }
  .songlist h1
  {
-  	position: relative;
+    position: relative;
     top: 18px;
     left: 100px;
- 	  color: white;
- 	  font-size: 22px;
- 	  font-family: 'Teko', sans-serif;
- }
- .songlist ul
+    color: white;
+    font-size: 22px;
+    font-family: 'Teko', sans-serif;
+}.songlist ul
  {  
     position: relative;
     margin:25px;
     left: 100px;
- 	  color: white;
- 	  font-size: 23px;
+    color: white;
+    font-size: 23px;
     font-family: 'Poppins', sans-serif;
 }
  a
