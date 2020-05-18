@@ -27,6 +27,7 @@ body{
   text-justify: inter-word;
   white-space: pre-wrap;
   font-family: 'ghalo';
+  font-family: 'Montserrat', sans-serif;
 
     }
   .par2
@@ -41,6 +42,7 @@ body{
   text-justify: inter-word;
   white-space: pre-wrap;
   font-family: 'ghalo';
+   font-family: 'Montserrat', sans-serif;
     }
   .par3
   { 
@@ -54,6 +56,7 @@ body{
   text-justify: inter-word;
   white-space: pre-wrap;
   font-family: 'ghalo';
+   font-family: 'Montserrat', sans-serif;
     }
      .par4
   { 
@@ -67,6 +70,7 @@ body{
   text-justify: inter-word;
   white-space: pre-wrap;
   font-family: 'ghalo';
+   font-family: 'Montserrat', sans-serif;
     }
  .song img
  { 
@@ -89,6 +93,7 @@ h1
   font-size: 25px; 
   text-align: center; 
   font-family: 'arial';
+
  }
  
  .lyric
@@ -102,6 +107,7 @@ h1
   text-align: center; 
   white-space: pre-wrap;
   font-family: 'Montserrat', sans-serif;
+
 
   
  }
@@ -126,4 +132,10 @@ hr
   margin-left: auto;
   margin-right: auto;
   
+}
+
+q
+{
+  color :white;
+  font-family: 'Montserrat', sans-serif;
 }
