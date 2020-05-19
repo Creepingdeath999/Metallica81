@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('../fonts/css/bpg-nino-mtavruli.css');
 
 
 body{
@@ -12,7 +13,7 @@ body{
     max-width: 300px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .par 
@@ -26,7 +27,7 @@ body{
   text-align: justify; 
   text-justify: inter-word;
   white-space: pre-wrap;
-  font-family: 'ghalo';
+  font-family: "BPG Nino Mtavruli", sans-serif;
   font-family: 'Montserrat', sans-serif;
 
     }
@@ -41,8 +42,8 @@ body{
   text-align: justify; 
   text-justify: inter-word;
   white-space: pre-wrap;
-  font-family: 'ghalo';
-   font-family: 'Montserrat', sans-serif;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-family: 'Montserrat', sans-serif;
     }
   .par3
   { 
@@ -69,7 +70,7 @@ body{
   text-align: justify; 
   text-justify: inter-word;
   white-space: pre-wrap;
-  font-family: 'ghalo';
+  font-family: "BPG Nino Mtavruli", sans-serif;
    font-family: 'Montserrat', sans-serif;
     }
  .song img
@@ -112,9 +113,7 @@ h1
   
  }
 
-
- 
- .kill-span
+.kill-span
  {
   color:#ee1b22;
  }

@@ -13,13 +13,13 @@ body{
     margin-left: auto;
     margin-right: auto
 }
-.titleh1
+.title-ride
 { 
   text-align: center;
   font-size: 40px;
   margin-top: 10px;
   font-family: 'Oswald', sans-serif;
-  color:#a31811;
+  color:#494399;
 }
 .par
  { 
@@ -86,7 +86,7 @@ body{
    white-space:pre-line;
 
  }
- .kill-a
+ .ride-a
  {
-  color:#ee1b22;
+  color:#2d65b0;
  }
