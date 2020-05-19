@@ -10,7 +10,7 @@ body{background-color:black;
     max-width: 300px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 .pmetal{
   	color:#e0db70;
@@ -56,14 +56,15 @@ body{background-color:black;
     	color:white;
     	text-align: center;
     	font-size: 26px;
-    	font-family: 
+    	
     }
     h1{
     	color:white;
     	margin: 5px;
     	text-align: center;
     }
-    li
+    
+
     {
     	color: white;
     }
@@ -75,4 +76,17 @@ body{background-color:black;
     	font-size: 25px;
         font-family: 'ghalo',sans-serif;
     }
-  
+ul
+    {
+   
+   font-size: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   white-space:pre-line;
+   color: white;
+   max-width: 900px;
+    }
+
+
+

@@ -18,67 +18,27 @@ body{
 
 .par 
  { 
- 	margin-left:250px;
- 	padding-top: 50px;
-	color: white; 
-  font-size: 16px;
-  line-height: 24px; 
-  max-width: 900px;
-  text-align: justify; 
-  text-justify: inter-word;
-  white-space: pre-wrap;
-  font-family: "BPG Nino Mtavruli", sans-serif;
-  font-family: 'Montserrat', sans-serif;
+ 	  margin-left:auto;
+    margin-right: auto;
+    padding-top: 5px;
+    color: white; 
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px; 
+    max-width: 1000px;
+    text-align: justify; 
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-family: 'Poppins', sans-serif;
+    white-space: pre-wrap;
 
     }
-  .par2
-  { 
-  margin-left:250px;
-  margin-top: -15px;
-  color: white; 
-  font-size: 16px;
-  line-height: 24px; 
-  max-width: 900px;
-  text-align: justify; 
-  text-justify: inter-word;
-  white-space: pre-wrap;
-  font-family: "BPG Nino Mtavruli", sans-serif;
-  font-family: 'Montserrat', sans-serif;
-    }
-  .par3
-  { 
-  margin-left:250px;
-  color: white; 
-  margin-top: 10px;
-  font-size: 16px;
-  line-height: 24px; 
-  max-width: 900px;
-  text-align: justify; 
-  text-justify: inter-word;
-  white-space: pre-wrap;
-  font-family: 'ghalo';
-   font-family: 'Montserrat', sans-serif;
-    }
-     .par4
-  { 
-  margin-left:250px;
-  color: white; 
-  margin-top: 10px;
-  font-size: 16px;
-  line-height: 24px; 
-  max-width: 900px;
-  text-align: justify; 
-  text-justify: inter-word;
-  white-space: pre-wrap;
-  font-family: "BPG Nino Mtavruli", sans-serif;
-   font-family: 'Montserrat', sans-serif;
-    }
+ 
  .song img
  { 
- 	margin-left:50px;
+ 	margin-left:10px;
  	max-width: 300px;
  	display: inline-block;
- 	padding-top: 5px;
+  margin-top: -50px;
  	border-radius: 10px;
  	float: left;
  }
