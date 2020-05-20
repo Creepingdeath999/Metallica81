@@ -1,5 +1,5 @@
 
-
+@import url('../fonts/css/bpg-nino-mtavruli.css');
 body{
   background-color: #000000;
 }
@@ -96,6 +96,7 @@ img
    text-align: center;
    color:#ffff;
    font-size: 2vw;
-   font-family:'arial';
+   font-family: "BPG Nino Mtavruli", sans-serif;
+   padding-top: 10px;
 
 }

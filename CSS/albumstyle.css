@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('../fonts/css/bpg-nino-mtavruli.css');
 
 body{
   background-color: black;
@@ -74,7 +75,7 @@ body{
     text-align: center;
     color: white;
     font-size: 30px;
-    font-family: 'bpg-nibo-mtavruli', sans-serif;
+    font-family: "BPG Nino Mtavruli", sans-serif;
  }
  .songlist .facts-ul
  {
