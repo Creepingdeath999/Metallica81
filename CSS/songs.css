@@ -118,7 +118,6 @@ hr
     line-height: 24px; 
     max-width: 800px;
     text-align: justify; 
-    font-family: "BPG Nino Mtavruli", sans-serif;
     font-family: 'Poppins', sans-serif;
     white-space: pre-wrap;
 }
@@ -142,4 +141,13 @@ hr
   
  
 
+}
+h3
+{
+  color:gray;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 500px;
+  font-family: 'Poppins', sans-serif;
 }
