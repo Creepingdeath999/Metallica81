@@ -162,3 +162,10 @@ h3
   font-style: italic;
   cursor: text;
 }
+.notes
+{
+  margin-right: auto;
+  margin-left: 500px;
+  object-position: center;
+  border-radius: 10px;
+}
