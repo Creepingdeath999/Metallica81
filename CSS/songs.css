@@ -162,10 +162,9 @@ h3
   font-style: italic;
   cursor: text;
 }
-.notes
+.song .damage-i
 {
-  margin-right: auto;
-  margin-left: 500px;
-  object-position: center;
-  border-radius: 10px;
+  color: gray;
+  font-style: italic;
+  cursor: text;
 }
