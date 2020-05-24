@@ -116,3 +116,25 @@ body{
 {
   color:#f9ae43;
 }
+
+/*AJFA*/
+
+.title-ajfa
+{
+  color:#b8d28a;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.ajfa-a
+{
+  color: #78e395;
+}
+.ajfa-i
+{
+  font-style: italic;
+  color: #f2f0e4;
+}
