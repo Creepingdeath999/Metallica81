@@ -75,6 +75,7 @@ body{background-color:black;
     	margin:5px;
     	font-size: 25px;
         font-family: 'ghalo',sans-serif;
+        unicode-range: U+00-FF, U+980-9FF;
     }
 ul
     {
@@ -87,6 +88,3 @@ ul
    color: white;
    max-width: 900px;
     }
-
-
-
