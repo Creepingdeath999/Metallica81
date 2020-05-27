@@ -138,3 +138,28 @@ body{
   font-style: italic;
   color: #f2f0e4;
 }
+
+/*Black album*/
+
+
+.title-black
+{
+   color:#d6d6d6;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+
+}
+.black-i
+{
+  font-style: italic;
+  color: #f2f0e4;
+}
+.black-a
+{
+  color: #d6d6d6;
+}
+
