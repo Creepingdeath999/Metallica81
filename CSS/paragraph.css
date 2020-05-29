@@ -87,4 +87,12 @@ ul
    white-space:pre-line;
    color: white;
    max-width: 900px;
-    }
+}
+h6
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: gray;
+    font-size: 10px;
+}
