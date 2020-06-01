@@ -163,3 +163,30 @@ body{
   color: #878787;
 }
 
+/*load*/
+
+.title-load
+{
+  color: #bd2f38;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.load-a
+{
+  color: #d3463e;
+}
+.load-i
+{
+  color: #d56853;
+  font-style: italic;
+}
+.l
+{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
