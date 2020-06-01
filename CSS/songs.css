@@ -65,6 +65,10 @@ h1
   font-family: "BPG Nino Mtavruli", sans-serif;
   margin-top: 150px;
  }
+ i
+ {
+  font-style: italic;
+ }
  
  .lyric
  {
@@ -188,4 +192,15 @@ h3
 .black-a
 {
   color: #878787;
+}
+
+/*load*/
+.load-a
+{
+  color: #d3463e;
+}
+.load-i
+{
+  color: #d56853;
+  font-style: italic;
 }
