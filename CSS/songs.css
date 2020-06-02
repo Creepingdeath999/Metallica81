@@ -204,3 +204,12 @@ h3
   color: #d56853;
   font-style: italic;
 }
+.song .king
+{
+  white-space: pre-wrap;
+  font-style: italic;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: gray;
+}
