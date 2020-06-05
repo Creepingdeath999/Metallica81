@@ -8,7 +8,7 @@
 
 
 body{
-  background-color: black;
+  background-color: rgb(0,0,0);
 }
 .headerimg
 {
@@ -212,4 +212,15 @@ h3
   margin-left: auto;
   text-align: center;
   color: gray;
+}
+
+/*reload*/
+.reload-a
+{
+  color:#f5c016;
+}
+.reload-i
+{
+  color: #d56853;
+  font-style: italic;
 }

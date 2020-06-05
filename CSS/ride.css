@@ -184,3 +184,24 @@ body{
   color: #d56853;
   font-style: italic;
 }
+
+/*reload*/
+.title-reload
+{
+  color:#b42e30;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.reload-a
+{
+  color:#f5c016;
+}
+.reload-i
+{
+  color: #d56853;
+  font-style: italic;
+}
