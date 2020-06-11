@@ -202,6 +202,26 @@ body{
 }
 .reload-i
 {
-  color: #d56853;
+  color: #c9c8c7;
+  font-style: italic;
+}
+/*stanger*/
+.st-a
+{
+  color:#f26225;
+}
+.title-st
+{
+  color:#d51f36;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.st-i
+{
+  color: #c9c8c7;
   font-style: italic;
 }
