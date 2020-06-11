@@ -37,6 +37,7 @@ body{
     font-style: bold;
     white-space: pre-wrap;
      }
+
  .songlist img
  { 
   margin-left: 220px;
@@ -65,6 +66,15 @@ body{
     font-size: 23px;
     font-family: 'Poppins', sans-serif;
 }
+.songlist:after {
+  clear: both;
+}
+
+.songlist:after, .box:before {
+  content: '';
+  display: table;
+}
+
  a
  {
   color: white;
