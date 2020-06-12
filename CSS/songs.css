@@ -223,6 +223,7 @@ h3
 {
   color: ##e0e0e0;
   font-style: italic;
+  cursor: text;
 }
 /*St Anger*/
 .st-a
@@ -234,4 +235,5 @@ h3
 {
   color: #c9c8c7;
   font-style: italic;
+  cursor: text;
 }
