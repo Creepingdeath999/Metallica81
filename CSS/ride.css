@@ -33,9 +33,10 @@ body{
     line-height: 24px; 
     max-width: 900px;
     text-align: justify; 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',"BPG Nino Mtavruli", sans-serif;
     font-style: bold;
     white-space: pre-wrap;
+    margin-top: 10px;
      }
 
  .songlist img
@@ -101,6 +102,7 @@ body{
    text-align: center;
    max-width: 900px;
    white-space:pre-line;
+   font-family: 'Poppins','BPG Nino Mtavruli',sans-serif;
 
  }
  .ride-a
@@ -231,6 +233,26 @@ body{
   font-family: 'Oswald', sans-serif;
 }
 .st-i
+{
+  color: #c9c8c7;
+  font-style: italic;
+}
+/*death magnetic*/
+.title-magnetic
+{
+  color:#c4c4c7;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.magnetic-a
+{
+  color:#949294;
+}
+.magnetic-i
 {
   color: #c9c8c7;
   font-style: italic;

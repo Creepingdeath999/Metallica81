@@ -32,7 +32,7 @@ body{
     line-height: 24px; 
     max-width: 900px;
     text-align: justify; 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins','BPG Nino Mtavruli', sans-serif;
     text-justify: inter-word;
     white-space: pre-wrap;
      }
@@ -52,7 +52,7 @@ body{
     left: 100px;
     color: white;
     font-size: 22px;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Teko',"BPG Nino Mtavruli", sans-serif;
 }
 .songlist ul
  {  
@@ -61,7 +61,7 @@ body{
     left: 100px;
     color: white;
     font-size: 23px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',"BPG Nino Mtavruli", sans-serif;
 }
  a
  {
