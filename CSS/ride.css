@@ -30,15 +30,18 @@ body{
     color: white; 
     text-align: center;
     font-size: 16px;
-    line-height: 24px; 
+    line-height: 24px;
     max-width: 900px;
     text-align: justify; 
     font-family: 'Poppins',"BPG Nino Mtavruli", sans-serif;
     font-style: bold;
-    white-space: pre-wrap;
-    margin-top: 10px;
+    text-indent: 15px;
+    
      }
-
+.songlist .ride-img
+{
+   margin-left: 260px;
+}
  .songlist img
  { 
   margin-left: 220px;
