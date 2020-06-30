@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('../fonts/css/bpg-nino-mtavruli.css');
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('../fonts/css/alk-sanet.min.css');
 
 
 
@@ -11,7 +12,9 @@
 
 body{
   background-color: rgb(0,0,0);
+  cursor: url(../cursor.png), auto;
 }
+
 .headerimg
 {
     margin-top: 20px;
@@ -25,7 +28,7 @@ body{
 .song .par 
  { 
   
-    font-family: "Montserrat","BPG Nino Mtavruli",sans-serif;
+    font-family: "ALK Sanet", sans-serif;
     margin-left:auto;
     margin-right: auto;
     padding-top: 5px;
@@ -33,10 +36,7 @@ body{
     font-size: 16px;
     line-height: 24px; 
     max-width: 900px;
-    text-align: justify;
-    text-indent: 15px;
-
-    }
+  }
 
 
  .song iframe
@@ -61,7 +61,7 @@ h1
   margin-top: auto;
   font-size: 25px; 
   text-align: center; 
-  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-family: "ALK Sanet", sans-serif;
   margin-top: 150px;
  }
  i
@@ -99,7 +99,7 @@ hr
 }
 .cliff
 {
-   position: fixed;
+  position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -116,18 +116,15 @@ hr
     margin-right: auto;
     padding-top: 5px;
     color: white; 
-    text-align: center;
     font-size: 16px;
     line-height: 24px; 
     max-width: 900px;
-    text-align: justify; 
-    font-family: 'Montserrat',"BPG Nino Mtavruli", sans-serif;
+    font-family: "ALK Sanet", sans-serif;
     text-indent: 15px;
 }
 .song .ride-img
  { 
   margin-left: 50px;
-  
   padding: 5px;
   max-width: 300px;
   display: all;
