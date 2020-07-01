@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 body{
   background-color: #000000;
 }
@@ -79,7 +79,7 @@ body{
 }
 
 .info h3 {
-  font-family: 'roboto', cursive;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-weight: 400;
   color: #fff;
   font-size: 42px;
@@ -107,7 +107,7 @@ img
    text-align: center;
    color:#ffff;
    font-size: 1.5vw;
-   font-family: 'Anton', sans-serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
 .cover
@@ -115,7 +115,7 @@ img
    text-align: center;
    color:#ffff;
    font-size: 2vw;
-   font-family: 'Anton', sans-serif;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
    padding-bottom: 20px;
 }
 .imagec

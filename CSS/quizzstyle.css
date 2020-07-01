@@ -24,10 +24,10 @@ body
 }
 .content p
 {
-color: white;
+color: gray;
 font-family: "BPG Nino Mtavruli", sans-serif;
 margin-top: 50px;
-font-style: italic bold;
+font-style: italic;
 }
 .container
 {
