@@ -74,8 +74,8 @@ body{
 }
 .songlist .songs li:hover{
 
-    transform: scale(1.05); 
-    outline-color: inherit;
+   transform: scale(1.09);
+    
 }
 .songlist .songs{left: 100px;}
 .songlist:after {
