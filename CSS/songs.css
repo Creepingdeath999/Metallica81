@@ -31,18 +31,30 @@ body{
     margin-left:auto;
     margin-right: auto;
     padding-top: 5px;
-    color: white; 
+    color: red; 
     font-size: 16px;
     line-height: 24px; 
-    max-width: 900px;
+    width: 1050px;
     text-indent: 15px;
 
   }
+  .ride-par
+{
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 5px;
+    color: white; 
+    font-size: 16px;
+    line-height: 24px; 
+    width: 1050px;
+    font-family: "ALK Sanet", sans-serif;
+    text-indent: 15px;
+}
 
 
  .song iframe
  { 
-   margin-left: 50px;
+   margin-left: 150px;
   margin-top: 5px;
   padding: 5px;
   max-width: 300px;
@@ -111,18 +123,7 @@ hr
 {
   color:#2d65b0;
 }
-.ride-par
-{
-    margin-left:auto;
-    margin-right: auto;
-    padding-top: 5px;
-    color: white; 
-    font-size: 16px;
-    line-height: 24px; 
-    max-width: 900px;
-    font-family: "ALK Sanet", sans-serif;
-    text-indent: 15px;
-}
+
 .song .ride-img
  { 
   margin-left: 50px;
@@ -229,6 +230,11 @@ h3
 .magnetic-a
 {
   color:#949294;
+}
+a:hover{
+  font-size: 120%;
+
+
 }
 .magnetic-i
 {
