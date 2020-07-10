@@ -231,13 +231,24 @@ h3
 {
   color:#949294;
 }
-a:hover{
-  font-size: 120%;
 
-
-}
 .magnetic-i
 {
   color: #c9c8c7;
   font-style: italic;
+}
+/*Hardwired*/
+.hardwired-a
+{
+  color:#e8c406;
+}
+.hardwired-a:hover
+{
+  color: #c51f0b;
+}
+.hardwired-i
+{
+  color: #ecf8ec;
+  font-style: italic;
+  cursor: text;
 }
