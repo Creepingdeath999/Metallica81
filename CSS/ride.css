@@ -48,7 +48,7 @@ body{
   max-width: 300px;
   display: inline-block;
   padding-top: 15px;
- 
+  
   float: left;
 
 }
@@ -294,4 +294,53 @@ body{
 {
   color: #c9c8c7;
   font-style: italic;
+}
+/*hardwired*/
+.hardwired-title
+{
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #c51f0b),
+  color-stop(0.15, #144715), 
+  color-stop(0.3, #db9e06), color-stop(0.45, #db9e06),
+  color-stop(0.6, #c51f0b),color-stop(0.75, #c51f0b), 
+  color-stop(0.9, #144715),
+  color-stop(1, #144715) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #db9e06), 
+  color-stop(0.15, #db9e06), 
+  color-stop(0.3, #db9e06), 
+  color-stop(0.45, #db9e06), 
+  color-stop(0.6, #db9e06),color-stop(0.75, #db9e06), color-stop(0.9, #db9e06), color-stop(1, #db9e06) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.hardwired-a
+{
+  color:#e8c406;
+}
+.hardwired-a:hover
+{
+  color: #c51f0b;
+}
+.hardwired-i
+{
+  color: #ecf8ec;
+  font-style: italic;
+  cursor: text;
+}
+.hardwired-img
+{
+   margin-left: 225px;
+  justify-content: center;
+  width: 450px;
+  display: inline-block;
+  padding-top: 15px;
+  float: left;
+
 }
