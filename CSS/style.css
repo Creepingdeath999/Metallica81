@@ -103,3 +103,10 @@ img
     font-family: "ALK Sanet", sans-serif;
 
 }
+#quiz
+{
+   margin: auto;
+   width: 50%;
+  border:1px solid black;
+  padding: 10px;
+  }
