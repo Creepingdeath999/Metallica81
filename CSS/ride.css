@@ -344,3 +344,29 @@ body{
   float: left;
 
 }
+/*garage days re revisited*/
+.title-revisited
+{
+  color: #d3af95;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.re-a
+{
+  color: #d3af95;
+}
+.re-a:hover
+{
+  color: #aa473c;
+}
+.re-i
+{
+  color: #8c9294;
+  font-style: italic;
+  cursor: text;
+}

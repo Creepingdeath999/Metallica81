@@ -252,3 +252,17 @@ h3
   font-style: italic;
   cursor: text;
 }
+.re-a
+{
+  color: #d3af95;
+}
+.re-a:hover
+{
+  color: #aa473c;
+}
+.re-i
+{
+  color: #8c9294;
+  font-style: italic;
+  cursor: text;
+}
