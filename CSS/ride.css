@@ -43,12 +43,11 @@ body{
      }
 .songlist .ride-img
 {
-   margin-left: 225px;
+  margin-left: 225px;
   justify-content: center;
   max-width: 300px;
   display: inline-block;
   padding-top: 15px;
-  
   float: left;
 
 }
@@ -367,6 +366,74 @@ body{
 .re-i
 {
   color: #8c9294;
+  font-style: italic;
+  cursor: text;
+}
+/*garage*/
+.title-garage
+{
+  color: #75b3cd;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.songlist-garage .ride-img
+{
+  margin-left: 225px;
+  justify-content: center;
+  max-width: 300px;
+  display: inline-block;
+  padding-top: 15px;
+  float: left;
+
+}
+
+ .songlist-garage h1
+ {
+    position: relative;
+    margin-left: 800px;
+    top: 18px;
+    color: white;
+    font-size: 22px;
+    font-family: "ALK Sanet", sans-serif;
+}
+.songlist-garage ul
+ {  
+    display: inline-block;
+    margin: 40px;
+    *display: inline;  
+    color: white;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.songlist-garage .songs-garage li:hover{
+
+   transform: scale(1.09);
+    
+}
+
+.songlist-garage:after {
+  clear: both;
+}
+
+.songlist-garage:after, .box:before {
+  content: '';
+  display: table;
+}
+.garage-a
+{
+  color: #6dbad2;
+}
+.garage-i
+{
+  color: #b8d9e7;
   font-style: italic;
   cursor: text;
 }
