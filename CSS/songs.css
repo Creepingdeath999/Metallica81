@@ -142,8 +142,7 @@ h3
   margin-right: auto;
   text-align: center;
   max-width: 500px;
-  font-family: 'Poppins', sans-serif;
-}
+  font-family: "ALK Sanet", sans-serif;}
 
 .master-a
 {
@@ -277,3 +276,19 @@ h3
   cursor: text;
 }
 .garage-a:hover{color:#b8d9e7; }
+.mercyful
+{
+  color: white;
+  font-family: "ALK Sanet", sans-serif;
+  font-size: 18px;
+  margin:10px;
+}
+.mercyful li
+{ 
+  color: white;
+  line-height: 20px;
+}
+.mercyful li:hover
+{
+  color:#6dbad2;
+}
