@@ -266,3 +266,14 @@ h3
   font-style: italic;
   cursor: text;
 }
+.garage-a
+{
+  color: #6dbad2;
+}
+.garage-i
+{
+  color:#8c9294;
+  font-style: italic;
+  cursor: text;
+}
+.garage-a:hover{color:#b8d9e7; }
