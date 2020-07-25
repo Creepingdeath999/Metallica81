@@ -1,0 +1,22 @@
+@import url('../fonts/css/alk-sanet.min.css');
+body
+{
+  background-color: black;
+  background-repeat: no-repeat, repeat;
+}
+h1
+{ 
+  font-size: 80px;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  color: white;
+  font-family:  "ALK Sanet", sans-serif;
+}
+
+.inf
+{
+	position: fixed;
+    opacity: 0.3;
+	width: 100%;
+}
