@@ -292,3 +292,14 @@ h3
 {
   color:#6dbad2;
 }
+
+/*disappear*/
+.dis-a
+{
+  color:#ec8716;
+}
+
+.dis-a:hover
+{
+  color:#ef2418;
+}
