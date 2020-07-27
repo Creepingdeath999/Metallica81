@@ -437,3 +437,35 @@ body{
   font-style: italic;
   cursor: text;
 }
+/*lulu*/
+.title-lulu
+{
+  color: #96101f;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.lulu-a
+{
+  color: #ede9e2;
+}
+.lulu-a:hover
+{
+  color:#d3b787;
+}
+.lulu-i
+{
+  color: #f0efee;
+}
+.lulu .lulu-img
+{
+  float: left;
+  max-width: 300px;
+  margin-top: -5px;
+  padding:15px;
+ vertical-align:inherit;
+}
