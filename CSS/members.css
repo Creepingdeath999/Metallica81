@@ -1,5 +1,5 @@
 
-
+@import url('../fonts/css/alk-sanet.min.css');
 body{
   background-color: #000000;
 }
@@ -70,15 +70,6 @@ body{
   height: inherit;
 }
 
-.info h3 {
-  font-family: 'roboto', cursive;
-  font-weight: 400;
-  color: #fff;
-  font-size: 42px;
-  margin: 0 30px;
-  padding: 100px 0 0 0;
-  line-height: 1.5;
-}
 
 img
 {
@@ -99,7 +90,7 @@ img
    text-align: center;
    color:#ffff;
    font-size: 1.5vw;
-   font-family: 'roboto';
+    font-family: "ALK Sanet", sans-serif;
 
 
 }
@@ -111,3 +102,62 @@ img
   width: 500px;
 }
 
+
+/*members*/
+.members-par
+{
+   font-family: "ALK Sanet", sans-serif;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 5px;
+    color: white; 
+    font-size: 16px;
+    line-height: 24px; 
+    width: 1050px;
+    text-indent: 15px;
+}
+
+.members-img
+{
+  margin-left: 150px;
+  margin-top: 5px;
+  padding: 5px;
+  max-width: 300px;
+  display: all;
+  border-radius: 15px;
+  float: left;
+}
+.members-a
+{
+  color: yellow;
+}
+.members-a:hover
+{
+  color: red;
+}
+.facts h1
+{
+    position: relative ;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "ALK Sanet", sans-serif;
+}
+.facts ul
+{
+   margin-top:25px;
+   font-size: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   line-height: 30px;
+   max-width: 900px;
+   font-family: "ALK Sanet", sans-serif;
+   vertical-align: all;
+}
+.facts li
+{
+  color:white;
+}
