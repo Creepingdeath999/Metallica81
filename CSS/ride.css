@@ -467,5 +467,32 @@ body{
   max-width: 300px;
   margin-top: -5px;
   padding:15px;
- vertical-align:inherit;
+
+}
+
+/*live albums*/
+.live-h1
+{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+.live-img
+{ 
+  float: left;
+  max-width: 300px;
+  margin-top: -5px;
+  padding:15px;
+}
+
+/*liveshit*/
+#liveshit-title
+{
+  color: #b6b5b9;
+}
+.lsh-a
+{
+  color: #8b545c;
 }
