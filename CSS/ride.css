@@ -486,6 +486,13 @@ body{
   margin-top: -5px;
   padding:15px;
 }
+.live-img-mexico
+{ 
+  float: right;
+  height: 300px;
+  margin-top: -5px;
+  padding:15px;
+}
 
 /*liveshit*/
 #liveshit-title
@@ -508,4 +515,40 @@ body{
 .sm-a:hover
 {
   color: #fbf9fa;
+}
+/*orgullo*/
+#orgullo-title
+{
+  color:#c2303a;
+  white-space: pre-wrap;
+}
+/*6feet*/
+#sixfeet-title
+{
+  color: #8c1601;
+}
+
+#big4-title
+{
+  color: rgb(203, 178, 174);
+}
+.big4-a
+{
+  color: #cbb3af;
+}
+.live-img-tgth
+{ 
+  float: right;
+  height: 250px;
+  margin-top: -5px;
+  padding:15px;
+}
+/*grimeys*/
+#grimey-title
+{
+  color:#d8b899;
+}
+#helping-title
+{
+  color: #f20507;
 }
