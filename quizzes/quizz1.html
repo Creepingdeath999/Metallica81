@@ -1,14 +1,243 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>რამდენად კარგად იცნობ მეტალიკას?</title>
-	<link rel="stylesheet" type="text/css" href="../CSS/reset.css">
-	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
-	<header><a href="../HTML/home.html"><img class="headerimg" src="../img/logo.png"></a></header>
-</head>
+ <title>რამდენად კარგად იცნობ მეტალიკას?</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
 <body>
-	<div id="quiz">
-<div class="apester-media" data-media-id="5f0dd1273302185ed0995e6d" height="557"></div><script async src="https://static.apester.com/js/sdk/latest/apester-sdk.js"></script>
+     <div clss="quizContainer container-fluid well well-lg">
+        <div id="quiz1" class="text-center">
+		<h1 id="maintitle">რამდენად კარგად იცნობ მეტალიკას?</h1>
+            
+		</div>  
+ <div class="quiz-container">
+    <div class="question-number">
+       <h3>კითხვა <span class="question-num-value"></span> / <span class="total-question"></span></h3>
+    </div>
+    <div class="question">
+      
+    </div>
+    <div class="options">
+       <div id="1" class="option1" onclick="check(this)"></div>
+       <div id="2" class="option2" onclick="check(this)"></div>
+       <div id="3" class="option3" onclick="check(this)"></div>
+       <div id="4" class="option4" onclick="check(this)"></div>
+    </div>
+    <div class="button">
+       <button style="font-family:ALK Sanet, sans-serif;" type="button" class="btn" onclick="next()">შემდეგი</button>
+    </div>
+    <div class="answers-tracker">
+       
+    </div>
+ </div>
+ 
+ <div class="quiz-over">
+   <div class="box">
+     <h1>
+       
+      შენი შედეგია<br><span class="correct-answers"> </span>/<span class="total-question2">დან</span><br>
+      
+     </h1>
+     <button style="font-family:ALK Sanet, sans-serif;" type="button" onclick="tryAgain()">ცადეთ ხელახლა</button>
+   </div>
+ </div>
+ <script src="script.js"></script>
+<script>
+  
+  const options=document.querySelector(".options").children;
+  const answerTrackerContainer=document.querySelector(".answers-tracker");
+  const questionNumberSpan=document.querySelector(".question-num-value");
+  const totalQuestionSpan=document.querySelector(".total-question");
+  const correctAnswerSpan=document.querySelector(".correct-answers");
+  const totalQuestionSpan2=document.querySelector(".total-question2");
+  const percentage=document.querySelector(".percentage");
+  const question=document.querySelector(".question");
+  const op1=document.querySelector(".option1");
+  const op2=document.querySelector(".option2");
+  const op3=document.querySelector(".option3");
+  const op4=document.querySelector(".option4");
+  let questionIndex;
+  let index=0;
+  let myArray=[];
+  let myArr=[];
+  let score=0;
+
+   const questions=[
+   {
+    q:'სულ რამდენი ბასისტი ყავდა მეტალიკას?',
+    options:['2','3','4','5'],
+    answer:3
+   },
+     {
+    q:'ვის ეკუთვნის სახელის იდეა?',
+    options:['ჯეიმს ჰეთფილდს','ლარს ულრიხს','კირკ ჰემეტს','რონ მაკგოვნის'],
+    answer:2
+   },
+    {
+    q:'რომელ ბენდში უკრავდა კირკ ჰემეტი მეტალიკაში მისვლამდე?',
+    options:['სლეიერი','ექსუდოსი','ანთრაქსი','ტესტამენი'],
+    answer:2
+   },
+    {
+    q:'რომელი სიმღერის შემოკლება გახდა საჭირო CD-თვის ალბომიდან Reload?',
+    options:['poor twisted me','king nothing','The outlaw torn','until it sleeps' ],
+    answer:3
+   },
+   {
+    q:'რომელი სიმღერა არ შესრულებულა S&M-ზე?',
+    options:['Hero Of The day','the thing that should not be','of wolf and the man','fade to black' ],
+    answer:4
+   },
+   {
+    q:'რომელ წელს შევიდა მეტალიკა როკ ენ როლის დიდების დარბაზში?',
+    options:['2011','2008','2009','2010' ],
+    answer:3
+   },
+   {
+   q:'რომელი სიმღერა იწყება ჯეიმსის ხველებით?',
+    options:['Cure','slither','bad seed','Fixxxer' ],
+    answer:3
+   },
+   {
+   q:'რომელი სიმღერა მიუძღვნა დეივ მასტეინმა კლიფ ბარტონს გარდაცვალების შემდეგ?',
+    options:['99 ways to die','To Live Is to die','we all die young','in my darkest hour' ],
+    answer:4
+   },
+  {
+   q:'რომელი ჯაზ მუსიკოსია ლარს ულრიხის ნათლია?',
+    options:['დექსტერ გორდონი','ჯონ კოლტრანი','ჯენე ამოსი','დიზი გილესპი' ],
+    answer:1
+   },
+    {
+   q:'Diamond Head-ის რამდენი ქავერი იყო რონ მაკგოვნის 82 წლის გარაჟის დემოში?',
+    options:['არცერთი','2','4','1' ],
+    answer:3
+   },
+
+   ]
+
+   
+
+   // set questions and options and question number
+  totalQuestionSpan.innerHTML=questions.length;
+  function load(){
+        questionNumberSpan.innerHTML=index+1;
+         question.innerHTML=questions[questionIndex].q;     
+         op1.innerHTML=questions[questionIndex].options[0];
+         op2.innerHTML=questions[questionIndex].options[1];
+         op3.innerHTML=questions[questionIndex].options[2];
+         op4.innerHTML=questions[questionIndex].options[3];
+         index++;
+  }
+  
+  function check(element){
+   if(element.id==questions[questionIndex].answer){
+    element.classList.add("correct");
+    updateAnswerTracker("correct")
+    score++;
+    console.log("score:"+score)
+   }
+   else{
+    element.classList.add("wrong");
+    updateAnswerTracker("wrong")
+
+   }
+   disabledOptions()
+  }
+   
+  function disabledOptions(){
+     for(let i=0; i<options.length; i++) {
+      options[i].classList.add("disabled");
+      if(options[i].id==questions[questionIndex].answer){
+       options[i].classList.add("correct");
+      }
+
+     }
+  }
+  
+  function enableOptions(){
+     for(let i=0; i<options.length; i++) {
+      options[i].classList.remove("disabled","correct","wrong");
+     }
+  }
+
+  function validate(){
+      if(!options[0].classList.contains("disabled")){
+        alert("გთხოვთ მონიშნოთ პასუხი")
+      }
+      else{
+       enableOptions();
+       randomQuestion();
+      }
+  }
+
+  function next(){
+    validate();
+  }
+   
+  function randomQuestion(){
+   let randomNumber=Math.floor(Math.random()*questions.length);
+   let hitDuplicate=0;
+       if(index==questions.length){
+        quizOver();
+       }
+       else{
+         if(myArray.length>0){
+             for(let i=0; i<myArray.length; i++){
+               if(myArray[i]==randomNumber){
+                  hitDuplicate=1;
+                  break;
+               }
+             }
+             if(hitDuplicate==1){
+              randomQuestion();
+             }
+             else{
+               questionIndex=randomNumber;   
+              load();
+              myArr.push(questionIndex);
+             }
+         }
+         if(myArray.length==0){
+           questionIndex=randomNumber;   
+           load();
+           myArr.push(questionIndex);
+         }
+
+       myArray.push(randomNumber);
+       
+      }
+  }
+      
+  function answerTrakcer(){
+     for(let i=0; i<questions.length; i++){
+      const div=document.createElement("div")
+         answerTrackerContainer.appendChild(div);
+     }
+  }
+
+ function updateAnswerTracker(classNam){
+   answerTrackerContainer.children[index-1].classList.add(classNam);
+ }
+
+ function quizOver(){
+    document.querySelector(".quiz-over").classList.add("show");
+    correctAnswerSpan.innerHTML=score;
+    totalQuestionSpan2.innerHTML=questions.length;
+    percentage.innerHTML=(score/questions.length)*100 + "%";
+ }
+ 
+ function tryAgain(){
+     window.location.reload();
+ }
+
+ window.onload=function(){
+  randomQuestion();
+  answerTrakcer();
+ 
+}
+
+</script>
+
 </body>
 </html>
