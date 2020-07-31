@@ -7,7 +7,51 @@ body{
 *{
  box-sizing: border-box;
 }
+a 
+ {
+  text-decoration: none;
+}
+#mainpage
+{
+  align-items: center;
+  text-align: center;
+  background-color: #009688;
+  border:5px solid #009688;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#mainpage:hover
+{
 
+  background-color: #ffff;
+  color: black;
+
+}
+#mainpage h1
+{
+  color: white;
+   font-family: "ALK Sanet", sans-se
+}
+#mainpage h1:hover
+{
+  color: black;
+  display: all;
+   font-family: "ALK Sanet", sans-se
+}
+
+#others
+{
+   color:white;
+   font-family: "ALK Sanet", sans-serif;
+   text-align: center;
+
+}
+#others:hover
+{
+  color:red;
+  transform: scale(1.1);
+}
 #maintitle
 {
   text-align: center;
