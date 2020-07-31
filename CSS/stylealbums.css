@@ -146,3 +146,12 @@ img
 {
 
 }
+  .footer-img
+  {
+    max-width: 80px;
+  }
+.footer-img:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}

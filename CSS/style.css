@@ -120,3 +120,16 @@ img
   border:1px solid black;
   padding: 10px;
   }
+
+  .footer-img
+  { padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  }
+.footer-img:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}

@@ -31,3 +31,22 @@ h1
         content: attr(data-src-800px, url);
     }
 }
+
+.info
+{
+  max-width: 200px;
+  display: inline-flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.info h1
+{
+  margin: 15px;
+}
+a
+{
+  text-decoration: none;
+  
+}
