@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+ <title>ქვიზი:შეამოწმე შენი ცოდნა მეტალიკას შესახებ</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="shortcut icon" href="../ico/qvz.ico">
+ </head>
+<body>
+  <a href="../HTML/home.html"><div id="mainpage"><h1>მთავარი</h1></div></a>
+     <div clss="quizContainer container-fluid well well-lg">
+        <div id="quiz1" class="text-center">
+		<h1 id="maintitle">შეამოწმე შენი ცოდნა მეტალიკას შესახებ</h1>
+            
+		</div>  
+ <div class="quiz-container">
+    <div class="question-number">
+       <h3>კითხვა <span class="question-num-value"></span> / <span class="total-question"></span></h3>
+    </div>
+    <div class="question">
+      
+    </div>
+    <div class="options">
+       <div id="1" class="option1" onclick="check(this)"></div>
+       <div id="2" class="option2" onclick="check(this)"></div>
+       <div id="3" class="option3" onclick="check(this)"></div>
+       <div id="4" class="option4" onclick="check(this)"></div>
+    </div>
+    <div class="button">
+       <button style="font-family:ALK Sanet, sans-serif;" type="button" class="btn" onclick="next()">შემდეგი</button>
+    </div>
+    <div class="answers-tracker">
+       
+    </div>
+ </div>
+ 
+ <div class="quiz-over">
+   <div class="box">
+     <h1>
+       
+      შენი შედეგია<br><span class="correct-answers"> </span>/<span class="total-question2">დან</span><br>
+      <a href="quizzes.html"><h1 style="color:#009688;" id="others">ნახეთ სხვა ქვიზები</h1></a>
+       <a href="https://www.donationalerts.com/r/metallica81" target="_blank"><img style="max-width: 50px" class="footer-img" src="../img/donate.png"></a>
+       
+        <!-- AddToAny BEGIN -->
+
+<div id="share" class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://gtallica.ga/quizzes/quizz1.html">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_email"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+     </h1>
+     <button style="font-family:ALK Sanet, sans-serif;" type="button" onclick="tryAgain()">ცადეთ ხელახლა</button>
+   </div>
+ </div>
+ <a href="quizzes.html"><h1 id="others">ნახეთ სხვა ქვიზები</h1></a>
+ <script src="script.js"></script>
+<script>
+  
+  const options=document.querySelector(".options").children;
+  const answerTrackerContainer=document.querySelector(".answers-tracker");
+  const questionNumberSpan=document.querySelector(".question-num-value");
+  const totalQuestionSpan=document.querySelector(".total-question");
+  const correctAnswerSpan=document.querySelector(".correct-answers");
+  const totalQuestionSpan2=document.querySelector(".total-question2");
+  const percentage=document.querySelector(".percentage");
+  const question=document.querySelector(".question");
+  const op1=document.querySelector(".option1");
+  const op2=document.querySelector(".option2");
+  const op3=document.querySelector(".option3");
+  const op4=document.querySelector(".option4");
+  let questionIndex;
+  let index=0;
+  let myArray=[];
+  let myArr=[];
+  let score=0;
+
+   const questions=[
+   {
+    q:'მეტალიკას რამდენი სიმღერა არის დაწერილი მხოლოდ ერთი წევრის მიერ?',
+    options:['1','2','3','4'],
+    answer:2
+   },
+    {
+     q:'პირველად, რომელ წელს შესრულდა Master Of Puppets ალბომი სრულად?',
+    options:['1999','2001','2005','2006'],
+    answer:4
+   },
+   {
+   q:'რამდენი სინგლი გამოვიდა ალბომიდან ...And Justice For All?',
+    options:['1','2','3','4'],
+    answer:3
+   },
+   {
+     q:'თავდაპირველად რომელი სიმღერა იყო განძრახული როგორც ინსტრუმენტალი?',
+    options:['Hero Of The Day','My Friend Of Misery','Attitude','Cure'],
+    answer:2
+   },
+     {
+      q:'ჩამოთვლილთაგან რომელი სიმღერა შესრულდა ცოცხლად?',
+    options:['Poor Twisted Me','Better Than You','Shoot Me Again','Fixxxer'],
+    answer:1
+   },
+   {
+   q:'მეტალიკას რამდენი სიმღერაა 8 და მეტი წუთის ხანგრძლოვობის?',
+    options:['10','15','20','25'],
+    answer:2
+   },
+    {
+   q:'რამდენი კვირის განმავლობაში იყო Master Of Puppets ბილბორდის 200-ში?',
+    options:['166','72','48','19'],
+    answer:2
+   },
+     
+      {
+   q:'რომელ სტუდიაში ჩაიწერა Ride The Lighting?',
+    options:['Never Silent','Sweet Silence','Always Loud',' Sweet Noise'],
+    answer:2
+   },
+     {
+   q:'ოზი ოზბორნთან ტურნეს დროს ჯეიმსმა მოიტეხა მაჯა, მაგრამ მან კვლავ იმღერა, ვინ უკრავდა მის მაგივრად გიტარაზე?',
+    options:['ლოი გრანტი','კერი კინგი','ჯონ მარშალი',' დეივ მასტეინი'],
+    answer:3
+   },
+   {
+   q:'რამდენი სიმღერა შესრულა მეტალიკამ ფრედი მერკურისადმი მიძღვნილ კონცერტზე 1992 წელს?',
+    options:['1','2','3','4'],
+    answer:3
+   },
+
+
+   ]
+
+   
+
+   // set questions and options and question number
+  totalQuestionSpan.innerHTML=questions.length;
+  function load(){
+        questionNumberSpan.innerHTML=index+1;
+         question.innerHTML=questions[questionIndex].q;     
+         op1.innerHTML=questions[questionIndex].options[0];
+         op2.innerHTML=questions[questionIndex].options[1];
+         op3.innerHTML=questions[questionIndex].options[2];
+         op4.innerHTML=questions[questionIndex].options[3];
+         index++;
+  }
+  
+  function check(element){
+   if(element.id==questions[questionIndex].answer){
+    element.classList.add("correct");
+    updateAnswerTracker("correct")
+    score++;
+    console.log("score:"+score)
+   }
+   else{
+    element.classList.add("wrong");
+    updateAnswerTracker("wrong")
+
+   }
+   disabledOptions()
+  }
+   
+  function disabledOptions(){
+     for(let i=0; i<options.length; i++) {
+      options[i].classList.add("disabled");
+      if(options[i].id==questions[questionIndex].answer){
+       options[i].classList.add("correct");
+      }
+
+     }
+  }
+  
+  function enableOptions(){
+     for(let i=0; i<options.length; i++) {
+      options[i].classList.remove("disabled","correct","wrong");
+     }
+  }
+
+  function validate(){
+      if(!options[0].classList.contains("disabled")){
+        alert("გთხოვთ მონიშნოთ პასუხი")
+      }
+      else{
+       enableOptions();
+       randomQuestion();
+      }
+  }
+
+  function next(){
+    validate();
+  }
+   
+  function randomQuestion(){
+   let randomNumber=Math.floor(Math.random()*questions.length);
+   let hitDuplicate=0;
+       if(index==questions.length){
+        quizOver();
+       }
+       else{
+         if(myArray.length>0){
+             for(let i=0; i<myArray.length; i++){
+               if(myArray[i]==randomNumber){
+                  hitDuplicate=1;
+                  break;
+               }
+             }
+             if(hitDuplicate==1){
+              randomQuestion();
+             }
+             else{
+               questionIndex=randomNumber;   
+              load();
+              myArr.push(questionIndex);
+             }
+         }
+         if(myArray.length==0){
+           questionIndex=randomNumber;   
+           load();
+           myArr.push(questionIndex);
+         }
+
+       myArray.push(randomNumber);
+       
+      }
+  }
+      
+  function answerTrakcer(){
+     for(let i=0; i<questions.length; i++){
+      const div=document.createElement("div")
+         answerTrackerContainer.appendChild(div);
+     }
+  }
+
+ function updateAnswerTracker(classNam){
+   answerTrackerContainer.children[index-1].classList.add(classNam);
+ }
+
+ function quizOver(){
+    document.querySelector(".quiz-over").classList.add("show");
+    correctAnswerSpan.innerHTML=score;
+    totalQuestionSpan2.innerHTML=questions.length;
+    percentage.innerHTML=(score/questions.length)*100 + "%";
+ }
+ 
+ function tryAgain(){
+     window.location.reload();
+ }
+
+ window.onload=function(){
+  randomQuestion();
+  answerTrakcer();
+ 
+}
+
+</script>
+
+</body>
+</html>
