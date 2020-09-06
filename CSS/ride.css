@@ -59,7 +59,7 @@ body{
      }
 .songlist .ride-img
 {
-  margin-left: 225px;
+  margin-left:310px;
   justify-content: center;
   max-width: 300px;
   display: inline-block;
@@ -351,7 +351,7 @@ body{
 }
 .hardwired-img
 {
-   margin-left: 225px;
+   margin-left: 310px;
   justify-content: center;
   width: 450px;
   display: inline-block;
@@ -401,7 +401,7 @@ body{
 
 .songlist-garage .ride-img
 {
-  margin-left: 225px;
+  margin-left: 310px;
   justify-content: center;
   max-width: 300px;
   display: inline-block;
