@@ -2,6 +2,7 @@
 @import url('../fonts/css/alk-sanet.min.css');
 body{
   background-color: #000000;
+
 }
 
 @media (min-device-width:600px) {
@@ -89,6 +90,7 @@ img
   border-radius: 5px;
   margin-top: -90px;
 
+
 }
 .textw
 {
@@ -130,13 +132,14 @@ img
 
 .members-img
 {
-  margin-left: 150px;
+  margin-left: 230px;
   margin-top: 5px;
   padding: 5px;
-  max-width: 300px;
-  display: all;
-  border-radius: 15px;
   float: left;
+  max-width: 300px;
+  display: flex;
+  border-radius: 15px;
+ 
 }
 .members-a
 {
